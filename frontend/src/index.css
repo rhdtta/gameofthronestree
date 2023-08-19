@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "GameofThrones";
+  src: local("GameofThrones"),
+   url("./assets/fonts/GameofThrones.ttf") format("truetype");
+ }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  
+  .icon-main {
+    position: relative;
+    top: -25px;
+  }
+  
+}
+
+#graph > div {
+  display: inline-block;
+}
+
+path.rd3t-link {
+  stroke: #c29500;
+  stroke-width: 3;
+}
+
+.dropdown-page {
+  height: 100vh;
+
+}
+
+.dropdown-main {
+  padding: 16px 16px;
+  position: relative;
+  left: 42vw;
+  top: 45vh;
+  .dropdown-label, .dropdown {
+    font-family: "GameofThrones";
+    z-index: 5;
+    position: relative;
+    left: 42px;
+    top: -36px;
+  }
+
+}
+
+.dropdown-main img {
+  position: absolute;
+  height: 245px;
+  left: -2px;
+  top: -128px;
+}
+.gotText {
+  font-family: "GameofThrones";
+  stroke: #a9b8b7;
+  stroke-width: 1px !important;
+  letter-spacing: 1px;
+  font-size: 9px;
+}
+
+.gotText.house {
+  font-size: 7px
+}
+
+.main-page {
+  background-image: url('./assets/backdrop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
